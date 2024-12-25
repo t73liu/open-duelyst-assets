@@ -9,5 +9,48 @@ The Python script used to generate the repository can be found in
 directory which contains the compressed assets. The original assets can be found
 under "app/original_resources".
 
+## Example
+
+| Animation | GIF                                      |
+|-----------|------------------------------------------|
+| Attack    | ![Attack GIF](examples/attack.gif)       |
+| Breathing | ![Breathing GIF](examples/breathing.gif) |
+| Death     | ![Death GIF](examples/death.gif)         |
+| Hit       | ![Hit GIF](examples/hit.gif)             |
+| Idle      | ![Idle GIF](examples/idle.gif)           |
+| Run       | ![Run GIF](examples/run.gif)             |
+
+## Frames
+
+```json
+{
+  "texture_filename": "boss_andromeda.png",
+  "width": 1024,
+  "height": 1024,
+  "frames": {
+    "attack": [
+      {
+        "frame_name": "boss_andromeda_attack_000.png",
+        "x0": 303,
+        "y0": 101,
+        "x1": 403,
+        "y1": 201,
+        "width": 100,
+        "height": 100
+      },
+      // ...
+    ],
+    "idle": [
+      // ...
+    ],
+    // ...
+  }
+}
+```
+
+## Spritesheet
+
+![Sample spritesheet](assets/units/boss_andromeda.png)
+
 [1]: https://github.com/open-duelyst/duelyst
 [2]: scripts/extract_assets.py
