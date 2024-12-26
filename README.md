@@ -5,9 +5,9 @@ use. The `plist` files containing the frame information have been converted into
 `json`.
 
 The Python script used to generate the repository can be found in
-[scripts/extract_assets.py][2]. The files are copied from the "app/resources"
+[scripts/extract_assets.py][2]. The files are copied from the [app/resources][3]
 directory which contains the compressed assets. The original assets can be found
-under "app/original_resources".
+under [app/original_resources][4].
 
 ## Example
 
@@ -52,5 +52,11 @@ under "app/original_resources".
 
 ![Sample spritesheet](assets/units/boss_andromeda.png)
 
+## TODO
+
+- [ ] Dedupe similar animation types (e.g. "cast" vs "casting" vs "castloop").
+
 [1]: https://github.com/open-duelyst/duelyst
 [2]: scripts/extract_assets.py
+[3]: https://github.com/open-duelyst/duelyst/tree/c3e506565048b8a724b699f8816b84ba8433f711/app/resources
+[4]: https://github.com/open-duelyst/duelyst/tree/c3e506565048b8a724b699f8816b84ba8433f711/app/original_resources

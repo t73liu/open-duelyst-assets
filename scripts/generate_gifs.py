@@ -35,6 +35,7 @@ def write_gif(images: list[Image.Image], output: str):
         append_images=images[1:],
         duration=120,
         loop=0,
+        disposal=2,
     )
     # Image.new("RGBA", (width, height), (255, 0, 0))
 

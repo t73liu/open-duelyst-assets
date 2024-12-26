@@ -190,7 +190,7 @@ def format_dimensions(nums: list[int]) -> dict[str, int]:
 
 
 def format_frame(nums: list[int]) -> dict[str, int]:
-    assert len(nums) == 4, "Must have 4 numbers to select a sprite"
+    assert len(nums) == 4, "Must have 4 coords to select a sprite"
     return {
         "x0": nums[0],
         "y0": nums[1],
